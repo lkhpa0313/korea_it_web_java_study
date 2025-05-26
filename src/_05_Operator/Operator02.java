@@ -18,8 +18,8 @@ public class Operator02 {
         System.out.println(--j); //10
 
         // 비교 연산자 => 결과가 항상 boolean 참/거짓 둘 중 하나
-        num1 = 5;
-        num2 = 3;
+        int num1 = 5;
+        int num2 = 3;
         System.out.println(num1 > num2);
         System.out.println(num1 >= num2);
         System.out.println((num1 < num2));

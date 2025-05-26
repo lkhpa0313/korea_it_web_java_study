@@ -14,6 +14,9 @@ public class VariablesNaming01 {
         *
         * */
 
+        //boolean
+        //is, flag
+
 
     }
 }

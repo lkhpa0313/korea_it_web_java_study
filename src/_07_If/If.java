@@ -18,5 +18,10 @@ public class If {
         if(height >=120 && !isAdult) {
             System.out.println("탑승 가능");
         }
+
+        //키가 120이상이거나 어른이면 탑승 가능
+        if(height >=120 || isAdult) {
+            System.out.println("탑승 가능");
+        }
     }
 }

@@ -8,12 +8,13 @@ public class StudentMain {
         //StudentMain에서 객체 생성 후 여러분 정보 대입(주소 대충)
         //showInfo()호출해서 정보출력
 
-        Student student = new Student();
-
-        student.name = "홍길동";
-        student.age = 17;
-        student.email = "hong@gmail.com";
-        student.address = "우주시 깐따삐아별";
+        Student student = new Student("홍길동", 17,"hong@mail.com",
+                "우주시 깐따삐아별");
+                student.setName("홍길동");
+//        student.name = "홍길동";
+//        student.age = 17;
+//        student.email = "hong@gmail.com";
+//        student.address = "우주시 깐따삐아별";
 
         student.showInfo();
     }

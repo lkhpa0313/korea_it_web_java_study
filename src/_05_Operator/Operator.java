@@ -30,7 +30,5 @@ public class Operator {
         System.out.println(num1);
 
 
-
-
     }
 }

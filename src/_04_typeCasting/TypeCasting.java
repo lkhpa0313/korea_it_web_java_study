@@ -38,8 +38,5 @@ public class TypeCasting {
         convertedScoreInt = (int) scoreLong;
         System.out.println(convertedScoreInt);
 
-
-
-
     }
 }

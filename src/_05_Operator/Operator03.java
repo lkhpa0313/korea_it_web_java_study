@@ -31,13 +31,11 @@ public class Operator03 {
 
         String sameStr = (x != y) ? "다름" : "같음";
         System.out.println(sameStr);
-
         /*
          * int height = 숫자;
          * 키가 120이상 인 경우 탑승 가능하도록 하는 삼항연산자
          * 가능하면 "탑승 가능" 붕가능하면 "탑승 불가능" 출력
          * */
-
         int height = 180;
         String result = (height >= 120) ? "탑승 가능" : "탑승 불가능";
         System.out.println(result);

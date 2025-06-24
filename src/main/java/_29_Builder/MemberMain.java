@@ -3,9 +3,9 @@ package _29_Builder;
 public class MemberMain {
     public static void main(String[] args) {
         Member member = new Member.Builder()
-                .age(27)
-                .email("dongyoon7212@naver.com")
-                .name("이동윤")
+                .age(41)
+                .email("lkhpa@naver.com")
+                .name("이강현")
                 .build();
     }
     //빌더 방식을 이용했을때의 이점

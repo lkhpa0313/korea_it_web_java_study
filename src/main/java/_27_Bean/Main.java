@@ -17,7 +17,7 @@ public class Main {
         System.out.println(userEntity);
 
         UserEntityLombok userEntityLombok = new UserEntityLombok();
-        userEntityLombok.setUserId(1);
+        userEntityLombok.setUserId(2);
         userEntityLombok.setUsername("홍길동");
         userEntityLombok.setAge(18);
         userEntityLombok.setEmail("gildong@gmail.com");

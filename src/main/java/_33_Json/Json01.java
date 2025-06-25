@@ -18,10 +18,10 @@ public class Json01 {
     public static void main(String[] args) {
         JsonObject jsonObject1 = new JsonObject();
         // 속성(key-value)을 추가하는 메소드 => addProperty()
-        jsonObject1.addProperty("username", "dongyoon");
+        jsonObject1.addProperty("username", "kanghyeon");
         jsonObject1.addProperty("password", 1234);
-        jsonObject1.addProperty("email", "test@gmail.com");
-        jsonObject1.addProperty("name", "이동윤");
+        jsonObject1.addProperty("email", "lkhpa0714@gmail.com");
+        jsonObject1.addProperty("name", "이강현");
 
         System.out.println(jsonObject1);
 
@@ -34,8 +34,8 @@ public class Json01 {
         System.out.println(json1);
 
         JsonObject address = new JsonObject();
-        address.addProperty("city", "부산시");
-        address.addProperty("district", "진구");
+        address.addProperty("city", "창원시");
+        address.addProperty("district", "의창구");
         address.addProperty("zipCode", 12345);
 
         jsonObject1.add("address", address);

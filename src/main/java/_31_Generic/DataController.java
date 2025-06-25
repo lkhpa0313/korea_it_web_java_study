@@ -11,9 +11,9 @@ public class DataController {
 //        System.out.println(responseData.toStringInt());
 //        System.out.println(responseData.toStringDouble());
 
-        ResponseData<String> responseData1 = new ResponseData<>("이름:", "이동윤");
+        ResponseData<String> responseData1 = new ResponseData<>("이름:", "이강현");
         System.out.println(responseData1);
-        ResponseData<Integer> responseData2 = new ResponseData<>("나이:", 27);
+        ResponseData<Integer> responseData2 = new ResponseData<>("나이:", 41);
         System.out.println(responseData2);
         ResponseData<Double> responseData3 = new ResponseData<>("원주율:", 3.14);
         System.out.println(responseData3);
@@ -24,9 +24,9 @@ public class DataController {
 
         UserEntityLombok userEntityLombok = new UserEntityLombok();
         userEntityLombok.setUserId(1);
-        userEntityLombok.setUsername("이동윤");
-        userEntityLombok.setAge(27);
-        userEntityLombok.setEmail("dongyoon7212@naver.com");
+        userEntityLombok.setUsername("이강현");
+        userEntityLombok.setAge(41);
+        userEntityLombok.setEmail("lkhpa@naver.com");
         ResponseData<UserEntityLombok> user = new ResponseData<>("유저:", userEntityLombok);
         System.out.println(user);
 

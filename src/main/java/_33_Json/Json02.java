@@ -28,11 +28,11 @@ public class Json02 {
         String userJson = null;
         //java 객체 -> json 변환
         User user = new User(
-                "dongyoon",
+                "kanghyeon",
                 "9876",
-                "dongyoon7212@naver.com",
-                "이동윤",
-                "27"
+                "lkhpa@naver.com",
+                "이강현",
+                "41"
         );
         System.out.println("user객체 : " + user);
         userJson = gson.toJson(user); // => user객체를 String 형태
@@ -44,9 +44,9 @@ public class Json02 {
         //JsonObject -> json
         JsonObject jsonObject1 = new JsonObject();
         jsonObject1.addProperty("studentCode", "2025001");
-        jsonObject1.addProperty("studentName", "이동윤");
+        jsonObject1.addProperty("studentName", "이강현");
         jsonObject1.addProperty("studentYear", "2");
-        jsonObject1.addProperty("score", "96.7");
+        jsonObject1.addProperty("score", "99.9");
 
         String studentJson = gson.toJson(jsonObject1);
         System.out.println("gson 사용 : " + studentJson);
